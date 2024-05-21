@@ -16,7 +16,7 @@
 
 ### 1. Training Configuration
 
-- The pretrained model is stored in [Google Drive]([[https://drive.google.com/file/d/1MONpM9auqGlRoyaOKUe6wJgLZ-E6A4Dc/view?usp=sharing]]). After downloading, please change the file path in the corresponding code.
+- The pretrained model is stored in [Google Drive](https://drive.google.com/file/d/1MONpM9auqGlRoyaOKUe6wJgLZ-E6A4Dc/view?usp=sharing). After downloading, please change the file path in the corresponding code.
 ```bash
 python Train.py  --epoch 100  --lr 1e-4  --batchsize 12  --trainsize 384  --train_root YOUR_TRAININGSETPATH  --val_root  YOUR_VALIDATIONSETPATH  --save_path YOUR_CHECKPOINTPATH
 ```
