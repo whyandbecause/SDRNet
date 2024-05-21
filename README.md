@@ -23,18 +23,18 @@ python Train.py  --epoch 100  --lr 1e-4  --batchsize 12  --trainsize 384  --trai
 
 ### 4. Testing Configuration
 
-Our well-trained model is stored in [Google Drive]([[https://drive.google.com/file/d/1MONpM9auqGlRoyaOKUe6wJgLZ-E6A4Dc/view?usp=sharing]]). After downloading, please change the file path in the corresponding code.
+Our well-trained model is stored in [Google Drive](https://drive.google.com/file/d/1MONpM9auqGlRoyaOKUe6wJgLZ-E6A4Dc/view?usp=sharing). After downloading, please change the file path in the corresponding code.
 ```bash
 python Test.py  --testsize YOUR_IMAGESIZE  --pth_path YOUR_CHECKPOINTPATH 
 ```
 
 ### 5. Evaluation
 
-- Change the file path to your GT and testing path in [eval.py]([https://github.com/DengPingFan/CODToolbox](https://github.com/whyandbecause/SDRNet/edit/main/evaltools/eval.py)), then run it to get your evaluation results.
+- Change the file path to your GT and testing path in [eval.py](https://github.com/whyandbecause/SDRNet/edit/main/evaltools/eval.py), then run it to get your evaluation results.
 
 ### 6. Results download
 
-The prediction results of our SDRNet are stored on [Google Drive]([[https://drive.google.com/file/d/1MONpM9auqGlRoyaOKUe6wJgLZ-E6A4Dc/view?usp=sharing]]) please check.
+The prediction results of our SDRNet are stored on [Google Drive](https://drive.google.com/file/d/1MONpM9auqGlRoyaOKUe6wJgLZ-E6A4Dc/view?usp=sharing) please check.
 
 ## Citation
 If you find our work useful in your research, please consider citing:
