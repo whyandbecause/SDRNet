@@ -1,7 +1,7 @@
 # SDRNet
 **SDRNet: Camouflaged Object Detection with Independent Reconstruction of Structure and Detail**, submmit to KBS
 
-[[Paper coming soon](https)] [[Results](https://drive.google.com/drive/folders/1Pho42bHiBhVR0l9KzdOFQgqLzr8mSv9e?usp=sharing)] 
+[[Paper coming soon](https)] [[Results](https://drive.google.com/drive/folders/12g212wCauNINQOwAeEchJAULT9grh-rg?usp=sharing)] 
 [[Pretrained models](https://drive.google.com/drive/folders/12g212wCauNINQOwAeEchJAULT9grh-rg?usp=sharing)]
 
 ---
