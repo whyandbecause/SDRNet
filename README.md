@@ -1,7 +1,7 @@
 # SDRNet
-**SDRNet: Camouflaged Object Detection with Independent Reconstruction of Structure and Detail**, submmit to KBS
+**SDRNet: Camouflaged Object Detection with Independent Reconstruction of Structure and Detail**, Accepted by KBS
 
-[[Paper coming soon](https)] [[Results](https://drive.google.com/drive/folders/12g212wCauNINQOwAeEchJAULT9grh-rg?usp=sharing)] 
+[[Paper coming soon](https://www.sciencedirect.com/science/article/pii/S0950705124006853)] [[Results](https://drive.google.com/drive/folders/12g212wCauNINQOwAeEchJAULT9grh-rg?usp=sharing)] 
 [[Pretrained models](https://drive.google.com/drive/folders/12g212wCauNINQOwAeEchJAULT9grh-rg?usp=sharing)]
 
 ---
@@ -49,7 +49,19 @@ path: the path of dataset.
 
 ## Citation
 If you find our work useful in your research, please consider citing:
-{coming soon}
+@article{GUAN2024112051,
+title = {SDRNet: Camouflaged object detection with independent reconstruction of structure and detail},
+journal = {Knowledge-Based Systems},
+volume = {299},
+pages = {112051},
+year = {2024},
+issn = {0950-7051},
+doi = {https://doi.org/10.1016/j.knosys.2024.112051},
+url = {https://www.sciencedirect.com/science/article/pii/S0950705124006853},
+author = {Juwei Guan and Xiaolin Fang and Tongxin Zhu and Weiqi Qian},
+keywords = {Camouflaged object detection, Structure and detail reconstruction, Feature enhancement, Feature fusion, Feature decomposition},
+abstract = {The simultaneous reconstruction of structure and detail is a prevalent strategy in camouflaged object detection. However, the reconstruction features required for structure and detail exhibit disparities, a facet overlooked in existing methods. Therefore, we present a novel methodology, termed SDRNet, which employs a dual-branch approach for the independent reconstruction of structure and detail, aiming to discern camouflaged targets and their edges. Specifically, we propose a decomposition block to segregate encoded features into distinct structure and detail components. Furthermore, structure enhancement block and detail enhancement block are proposed as feature enhancement methods to boost the capacity of structure and detail information. Subsequently, the introduced structure fusion block and detail fusion block progressively amalgamate the enhanced features. Additionally, the shared feature block is designed to serve as a bridge for the interaction between structure and detail information. Experimental results demonstrate that SDRNet outperforms existing state-of-the-art methods significantly on benchmark datasets. Our code is available at https://github.com/whyandbecause/SDRNet/.}
+}
 
 ## Concat
 If you have any questions, please feel free to contact me via email at jvguan@163.com or jvguan@seu.edu.cn.
