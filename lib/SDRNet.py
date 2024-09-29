@@ -58,7 +58,7 @@ class DB(nn.Module):
     glf = self.cv7(torch.cat((y1, y2), dim=1))
     
     y3 = self.cv2_(x)
-    y4 = self.cv9(self.cv8(torch.cat(details, 1)))
+    y4 = self.cv9(self.cv8(torch.cat(glfs, 1)))
     detail = self.cv10(torch.cat((y3, y4), dim=1))
     #detail = self.de(detail)
     return [glf, detail]
